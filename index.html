@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Team Twerk Translator</title>
+</head>
+<body>
+    <h2 class="title">Team Twerk Translator</h2>
+    <div>
+        <p>Below you will find a translator with English as the default for input text.<br> Once you have the text typed in that you want to translate, you will need to click on your desired language.<br> If you have entered in a word that is not part of the predefined dictionary, you will get an error "Invalid Words Entered".</p>
+    </div>
+
+    <div class="row">
+        <div class="input">
+            Enter Card Text:
+            <textarea id="input_text"></textarea>
+        </div>
+
+        <div class="output">
+            <input class="btn" type="button" id="chinese" value="Chinese" onclick="translate_this('chinese');">
+            <input class="btn" type="button" id="spanish" value="Spanish" onclick="translate_this('spanish');">
+            <input class="btn" type="button" id="french" value="French" onclick="translate_this('french');">
+            <textarea id="output_text"></textarea>
+            <div class="error" id="error_text"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    
+</body>
+</html>
