@@ -1,0 +1,48 @@
+
+h2, p {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Rammetto One', cursive; 
+}
+
+.error {
+    color: red;
+}
+
+.input {
+    float: left;
+    width: 300px;
+    padding: 15px;
+}
+
+.output {
+    float: right;
+    width: 300px;
+    padding: 15px; 
+}
+
+.row {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#input_text {
+    width: 325px;
+    height: 60px;
+    margin: 1%;
+}
+
+#output_text {
+    width: 325px;
+    height: 60px;
+    margin: 1%;
+}
+
+.btn {
+    background-color: rgb(30, 139, 207);
+    color: white;
+    height: 20px;
+    border-radius: 10px;
+}
